@@ -1,0 +1,35 @@
+.gallery img {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.gallery {
+  padding: 80px 0;
+}
+
+#gallery-modal .modal-dialog {
+  width: 100%;
+}
+
+.img__card {
+  width: 300px;
+}
+
+.img__instagram {
+  width: 500px;
+}
+
+
+
+/* Galeria de fotos */
+
+@media screen and (max-width: 768px) {
+  .card__container {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}
